@@ -7,7 +7,9 @@ export const categories = [
   { id: "service", fa: "خدماتی", en: "Services" },
   { id: "brand", fa: "برند / لوکس", en: "Brand / luxury" },
   { id: "education", fa: "آموزشی", en: "Education" },
-  { id: "industry", fa: "صنعتی / B2B", en: "Industrial / B2B" }
+  { id: "industry", fa: "صنعتی / B2B", en: "Industrial / B2B" },
+  { id: "identity", fa: "هویت بصری / لوگو", en: "Brand identity / logo" },
+  { id: "redesign", fa: "بازطراحی", en: "Redesign" }
 ];
 
 export const demos = [
@@ -128,5 +130,45 @@ export const demos = [
     title: { fa: "خط‌سنج؛ سازه و سوله", en: "Khat-Sanj industrial structures" },
     blurb: { fa: "سوله را سه‌بعدی بکش؛ ابعاد، لایه‌ها و ساخت مرحله‌ای.", en: "Configure a steel shed in 3D: dimensions, layers and step-by-step build." },
     alt: { fa: "پیش‌نمایش سایت شرکت سازه‌ی فلزی خط‌سنج", en: "Preview of the Khat-Sanj steel structures site" }
+  },
+  {
+    id: "brand-tarzar",
+    category: "identity",
+    url: "./brand/tarzar/",
+    internal: true,
+    thumb: "portfolio-brand-tarzar",
+    title: { fa: "تارزر؛ هویت بصری زعفران (نمونه مفهومی)", en: "Tarzar saffron brand identity (concept sample)" },
+    blurb: { fa: "لوگو، پالت، فونت، بسته‌بندی و تابلو برای فروشگاه فرضی زعفران.", en: "Logo, palette, type, packaging and signage for a fictional saffron shop." },
+    alt: { fa: "پیش‌نمایش هویت بصری تارزر: کارت ویزیت و لوگو", en: "Preview of the Tarzar identity: business cards and logo" }
+  },
+  {
+    id: "brand-shekarlab",
+    category: "identity",
+    url: "./brand/shekarlab/",
+    internal: true,
+    thumb: "portfolio-brand-shekarlab",
+    title: { fa: "شکرلب؛ هویت بصری شیرینی‌فروشی (نمونه مفهومی)", en: "Shekarlab patisserie identity (concept sample)" },
+    blurb: { fa: "نشان «ش» با سه نقطه‌ی رنگی، جعبه‌ی شیرینی و نمای مغازه.", en: "A Persian sheen monogram with three colour dots, a pastry box and a storefront." },
+    alt: { fa: "پیش‌نمایش هویت بصری شکرلب: جعبه و کیسه‌ی شیرینی", en: "Preview of the Shekarlab identity: pastry box and bag" }
+  },
+  {
+    id: "brand-radpa",
+    category: "identity",
+    url: "./brand/radpa/",
+    internal: true,
+    thumb: "portfolio-brand-radpa",
+    title: { fa: "ردپا؛ هویت بصری اپ رهگیری (نمونه مفهومی)", en: "Radpa parcel-tracking app identity (concept sample)" },
+    blurb: { fa: "نماد «ر» و موقعیت، آیکن اپ، برچسب بسته و اینستاگرام.", en: "A reh-letter and location mark, app icon, parcel label and Instagram." },
+    alt: { fa: "پیش‌نمایش هویت بصری ردپا: کارت ویزیت بنفش", en: "Preview of the Radpa identity: violet business cards" }
+  },
+  {
+    id: "redesign-rasta",
+    category: "redesign",
+    url: "./redesign/rasta/",
+    internal: true,
+    thumb: "portfolio-redesign-rasta",
+    title: { fa: "بازطراحی سایت حسابداری؛ قبل و بعد (نمونه مفهومی)", en: "Accounting site redesign: before and after (concept sample)" },
+    blurb: { fa: "یک سایت قدیمیِ فرضی در برابر نسخه‌ی مدرن و موبایل‌پسند.", en: "A fictional dated site next to a modern, mobile-friendly rebuild." },
+    alt: { fa: "مقایسه‌ی سایت قدیمی و بازطراحی‌شده‌ی حسابداری", en: "Side-by-side of the old and redesigned accounting site" }
   }
 ];

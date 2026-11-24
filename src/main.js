@@ -274,8 +274,10 @@ function renderCard(item) {
   const link = document.createElement("a");
   link.className = "portfolio-card";
   link.href = item.url;
-  link.target = "_blank";
-  link.rel = "noopener noreferrer";
+  if (!item.internal) {
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+  }
 
   const art = document.createElement("span");
   art.className = "portfolio-art";
