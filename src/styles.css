@@ -1630,3 +1630,8 @@ html[dir="rtl"] .card-link svg { transform: scaleX(-1); }
     transform: none;
   }
 }
+
+/* 7 demos: last card spans full row on 2-col layout */
+@media (min-width: 640px) {
+  .portfolio-grid > .portfolio-card:last-child:nth-child(odd) { grid-column: 1 / -1; }
+}
