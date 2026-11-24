@@ -6,7 +6,8 @@ export const categories = [
   { id: "shop", fa: "فروشگاهی", en: "Stores" },
   { id: "service", fa: "خدماتی", en: "Services" },
   { id: "brand", fa: "برند / لوکس", en: "Brand / luxury" },
-  { id: "education", fa: "آموزشی", en: "Education" }
+  { id: "education", fa: "آموزشی", en: "Education" },
+  { id: "industry", fa: "صنعتی / B2B", en: "Industrial / B2B" }
 ];
 
 export const demos = [
@@ -73,5 +74,32 @@ export const demos = [
     title: { fa: "نسخه انگلیسی فروشگاه", en: "English store version" },
     blurb: { fa: "نسخه انگلیسی با چیدمان LTR.", en: "An English, LTR store layout." },
     alt: { fa: "پیش‌نمایش نسخه انگلیسی فروشگاه قهوه", en: "Preview of the English ROASTÉ store demo" }
+  },
+  {
+    id: "avaye",
+    category: "brand",
+    url: "https://mmhby6698-dot.github.io/avaye-khamoush-demo/",
+    thumb: "portfolio-avaye",
+    title: { fa: "آوای خاموش؛ کارگاه ساز سنتی", en: "Avaye Khamoush traditional instrument workshop" },
+    blurb: { fa: "سیم‌ها را لمس کن و صدای ساز را بشنو؛ تجربه‌ی صوتی تعاملی.", en: "Touch the strings and hear the instrument; an interactive sound experience." },
+    alt: { fa: "پیش‌نمایش سایت کارگاه ساز سنتی آوای خاموش", en: "Preview of the Avaye Khamoush instrument workshop" }
+  },
+  {
+    id: "zistboom",
+    category: "industry",
+    url: "https://mmhby6698-dot.github.io/zistboom-demo/",
+    thumb: "portfolio-zistboom",
+    title: { fa: "زیست‌بوم؛ گلخانه هوشمند", en: "Zistboom smart greenhouse" },
+    blurb: { fa: "رشد گیاه با اسکرول و اتاق کنترل اقلیم تعاملی.", en: "A scroll-grown plant and an interactive climate control room." },
+    alt: { fa: "پیش‌نمایش سایت گلخانه هوشمند زیست‌بوم", en: "Preview of the Zistboom smart greenhouse" }
+  },
+  {
+    id: "pulse",
+    category: "industry",
+    url: "https://mmhby6698-dot.github.io/pulse-solar-demo/",
+    thumb: "portfolio-pulse",
+    title: { fa: "پالس؛ انرژی خورشیدی", en: "Pulse solar energy" },
+    blurb: { fa: "شبیه‌ساز تولید برق و محاسبه‌گر بازگشت سرمایه.", en: "A power-output simulator and a payback calculator." },
+    alt: { fa: "پیش‌نمایش سایت انرژی خورشیدی پالس", en: "Preview of the Pulse solar energy site" }
   }
 ];
