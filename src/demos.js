@@ -101,5 +101,32 @@ export const demos = [
     title: { fa: "پالس؛ انرژی خورشیدی", en: "Pulse solar energy" },
     blurb: { fa: "شبیه‌ساز تولید برق و محاسبه‌گر بازگشت سرمایه.", en: "A power-output simulator and a payback calculator." },
     alt: { fa: "پیش‌نمایش سایت انرژی خورشیدی پالس", en: "Preview of the Pulse solar energy site" }
+    },
+  {
+    id: "madan",
+    category: "industry",
+    url: "https://mmhby6698-dot.github.io/madan-negar-demo/",
+    thumb: "portfolio-madan",
+    title: { fa: "معدن‌نگار؛ سنگ تزئینی", en: "Madan-Negar decorative stone" },
+    blurb: { fa: "استودیوی اسلب: سنگ، پرداخت و بوک‌مچ را روی دیوار و نما ببین.", en: "A slab studio: preview stone, finish and book-match on walls and facades." },
+    alt: { fa: "پیش‌نمایش سایت شرکت سنگ تزئینی معدن‌نگار", en: "Preview of the Madan-Negar decorative stone site" }
+  },
+  {
+    id: "koochrah",
+    category: "service",
+    url: "https://mmhby6698-dot.github.io/kooch-rah-demo/",
+    thumb: "portfolio-koochrah",
+    title: { fa: "کوچ‌راه؛ سفر عشایری", en: "Kooch-Rah nomadic journeys" },
+    blurb: { fa: "فصل‌ها با اسکرول عوض می‌شوند و مسیر کوچ روی نقشه زنده است.", en: "Seasons change on scroll and the migration route comes alive on a map." },
+    alt: { fa: "پیش‌نمایش سایت سفرهای عشایری کوچ‌راه", en: "Preview of the Kooch-Rah nomadic travel site" }
+  },
+  {
+    id: "khatsanj",
+    category: "industry",
+    url: "https://mmhby6698-dot.github.io/khat-sanj-demo/",
+    thumb: "portfolio-khatsanj",
+    title: { fa: "خط‌سنج؛ سازه و سوله", en: "Khat-Sanj industrial structures" },
+    blurb: { fa: "سوله را سه‌بعدی بکش؛ ابعاد، لایه‌ها و ساخت مرحله‌ای.", en: "Configure a steel shed in 3D: dimensions, layers and step-by-step build." },
+    alt: { fa: "پیش‌نمایش سایت شرکت سازه‌ی فلزی خط‌سنج", en: "Preview of the Khat-Sanj steel structures site" }
   }
 ];
