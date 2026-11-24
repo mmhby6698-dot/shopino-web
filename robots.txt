@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mmhby6698-dot.github.io/shopino-web/sitemap.xml
